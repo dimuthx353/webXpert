@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .logo {
   width: 100px;
   scale: 2;
@@ -43,3 +47,39 @@ html {
   }
 }
 
+svg text {
+  animation: stroke 7s infinite alternate;
+  stroke-width: 2;
+  stroke: #ffffff;
+  font-size: 50px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(255, 255, 255, 1);
+  }
+  80% {
+    fill: rgba(0, 0, 0, 0);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: #fff;
+    stroke: rgba(255, 255, 255, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+.icons a i {
+  font-size: 25px;
+  margin-right: 10px;
+}
