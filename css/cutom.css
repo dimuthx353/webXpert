@@ -36,3 +36,9 @@ html {
 .c-course-card > div > div {
   min-height: 800px;
 }
+
+@media only screen and (max-width: 600px) {
+  .c-height {
+    min-height: auto;
+  }
+}
