@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 100px;
+  scale: 2;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+.c-center-div {
+  margin: 20px auto;
+}
+
+.c-cards .row > div > div {
+  min-height: 200px;
+}
+
+.c-course-img {
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
