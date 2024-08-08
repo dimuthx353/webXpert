@@ -12,6 +12,10 @@
   border: none;
   background: none;
   cursor: pointer;
+
+  font-family: 'Source Code Pro';
+  font-weight: 900;
+  font-size: 30px;
   color: var(--text-color);
   letter-spacing: 1px;
   background-color: var(--btn-color);
