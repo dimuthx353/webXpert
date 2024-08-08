@@ -22,3 +22,13 @@ html {
   object-fit: cover;
   display: block;
 }
+
+.c-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-height > div {
+  flex-grow: 1;
+}
