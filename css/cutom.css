@@ -3,7 +3,10 @@ html {
 }
 
 body {
-  overflow-x: hidden;
+  width: 100vw;
+  max-width: 100svw;
+  max-width: 100%;
+  overflow-x: visible;
 }
 
 .logo {
@@ -15,6 +18,10 @@ body {
 
 .c-center-div {
   margin: 20px auto;
+}
+
+.row {
+  overflow: hidden;
 }
 
 .c-cards .row > div > div {
@@ -44,6 +51,10 @@ body {
 @media only screen and (max-width: 600px) {
   .c-height {
     min-height: auto;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }
 
@@ -82,4 +93,69 @@ svg text {
 .icons a i {
   font-size: 25px;
   margin-right: 10px;
+}
+
+.c-icon-slide {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.one {
+  position: relative;
+  overflow: hidden;
+}
+
+.one > img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 10px;
+  transform: translateX(-500px);
+}
+
+.one > .img-1 {
+  animation: pop 12s ease-in-out infinite reverse;
+}
+.one > .img-2 {
+  animation: pop 15s ease-in infinite 0.8s;
+}
+.one > .img-3 {
+  animation: pop 5s ease-in-out infinite 1s;
+}
+.one > .img-4 {
+  animation: pop 5s ease-in-out infinite 2s;
+}
+.one > .img-5 {
+  animation: pop 10s ease-in infinite 2.2s;
+}
+.one > .img-6 {
+  animation: pop 5s ease-in-out infinite 2.4s;
+}
+.one > .img-7 {
+  animation: pop 5s ease-in-out infinite 1s reverse;
+}
+.one > .img-8 {
+  animation: pop 10s ease-in-out infinite 2.6s;
+}
+.one > .img-9 {
+  animation: pop 5s ease-in-out infinite 2.8s;
+}
+.one > .img-10 {
+  animation: pop 20s ease-in infinite 3s;
+}
+.one > .img-11 {
+  animation: pop 5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite 3.2s reverse;
+}
+
+@keyframes pop {
+  from {
+    transform: translateX(-900%);
+  }
+  to {
+    transform: translateX(900%);
+  }
 }
