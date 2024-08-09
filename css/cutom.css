@@ -48,25 +48,6 @@ body {
   min-height: 800px;
 }
 
-@media only screen and (max-width: 600px) {
-  .c-height {
-    min-height: auto;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .c-icon-slide {
-    height: 700px;
-  }
-
-  .c-icon-slide img {
-    width: 30px;
-    height: 30px;
-  }
-}
-
 svg text {
   animation: stroke 7s infinite alternate;
   stroke-width: 2;
@@ -166,5 +147,22 @@ svg text {
   }
   to {
     transform: translateX(900%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .c-height {
+    min-height: auto;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hide {
+    display: none;
+    position: relative;
   }
 }
