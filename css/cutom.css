@@ -108,37 +108,37 @@ svg text {
 }
 
 .one > .img-1 {
-  animation: pop 12s ease-in-out infinite reverse;
+  animation: pop 20s ease-in-out infinite reverse;
 }
 .one > .img-2 {
-  animation: pop 15s ease-in infinite 0.8s;
+  animation: pop 20s ease-in-out infinite reverse 1s;
 }
 .one > .img-3 {
-  animation: pop 5s ease-in-out infinite 1s;
+  animation: pop 20s ease-in-out infinite reverse 2s;
 }
 .one > .img-4 {
-  animation: pop 5s ease-in-out infinite 2s;
+  animation: pop 20s ease-in-out infinite reverse 3s;
 }
 .one > .img-5 {
-  animation: pop 10s ease-in infinite 2.2s;
+  animation: pop 20s ease-in-out infinite reverse 4s;
 }
 .one > .img-6 {
-  animation: pop 5s ease-in-out infinite 2.4s;
+  animation: pop 20s ease-in-out infinite reverse 5s;
 }
 .one > .img-7 {
-  animation: pop 5s ease-in-out infinite 1s reverse;
+  animation: pop 20s ease-in-out infinite reverse 6s;
 }
 .one > .img-8 {
-  animation: pop 10s ease-in-out infinite 2.6s;
+  animation: pop 20s ease-in-out infinite reverse 7.5s;
 }
 .one > .img-9 {
-  animation: pop 5s ease-in-out infinite 2.8s;
+  animation: pop 20s ease-in-out infinite reverse 12s;
 }
 .one > .img-10 {
-  animation: pop 20s ease-in infinite 3s;
+  animation: pop 20s ease-in-out infinite reverse 13s;
 }
 .one > .img-11 {
-  animation: pop 5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite 3.2s reverse;
+  animation: pop 20s ease-in-out infinite reverse 14s;
 }
 
 @keyframes pop {
