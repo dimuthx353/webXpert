@@ -2,11 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  width: 100vw;
-  max-width: 100svw;
-  max-width: 100%;
-  overflow-x: visible;
+.c-nav {
+  background-color: blue;
+  margin: 0 auto;
 }
 
 .logo {
