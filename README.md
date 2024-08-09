@@ -67,9 +67,9 @@ We welcome contributions from the community. To contribute, follow these steps:
     ```
 5. **Create a pull request** to the main branch
 
+---
+## Preview
 ![Alt text](https://github.com/dimuthx353/webXpert/blob/master/img/Screenshot%202024-08-09%20183903.png)
-
-
 
 Happy Learning!
 
